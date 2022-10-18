@@ -1,12 +1,11 @@
 package ru.mirea.task4.task4_1;
 
-
 public enum Seasons {
     WINTER(-15),
     SPRING(15),
     SUMMER(20) {
         public String getDescription() {
-            return "Теплое время года";
+            return "Warm season";
         }
     },
     AUTUMN(10);
@@ -22,6 +21,6 @@ public enum Seasons {
     }
 
     public String getDescription() {
-        return "Холодное время года";
+        return "Cold season";
     }
 }

@@ -1,5 +1,9 @@
 package ru.mirea.task11.task11_5;
 
+//Сравнить время выполнения кода в реализации кода в виде различных
+//        структур данных из предыдущих заданий (сравнить ArrayList и LinkedList
+//        по производительности – операции вставки, удаления, добавления и поиска по образцу)
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;

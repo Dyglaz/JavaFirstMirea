@@ -7,6 +7,7 @@ package ru.mirea.task12.task12_1ANDtask12_2;
 //2. Создать окно, отобразить в нем картинку, путь к которой указан
 //        в аргументах командной строки.
 
+
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;

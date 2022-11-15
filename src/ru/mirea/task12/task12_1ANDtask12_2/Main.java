@@ -20,11 +20,11 @@ public class Main {
         frame.setSize(500, 500);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-//        JPanel mainPanel = getPanelWithRandomShapes();
+        JPanel mainPanel = getPanelWithRandomShapes();
 
-        JPanel mainPanel = new JPanel();
-        JLabel label = getLabelWithPic("D:\\BUZ\\semestr3\\Java\\gif\\Ldbc.gif");
-        mainPanel.add(label);
+//        JPanel mainPanel = new JPanel();
+//        JLabel label = getLabelWithPic("D:\\BUZ\\semestr3\\Java\\gif\\Ldbc.gif");
+//        mainPanel.add(label);
 
         frame.getContentPane().add(mainPanel);
         frame.setVisible(true);
@@ -59,6 +59,7 @@ public class Main {
         };
     }
 }
+
 
 abstract class Shape {
     int x;

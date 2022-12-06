@@ -56,7 +56,6 @@ class GuessGame extends JFrame {
             }
         });
 
-
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setVisible(true);
     }

@@ -29,6 +29,6 @@ public class Task {
             input = matcher.replaceAll("");
             matcher = pattern.matcher(input);
         } while (matcher.find());
-        return input.matches("[\\d+/*-]*");
+        return input.matches("[\\d+/×*-]*");
     }
 }

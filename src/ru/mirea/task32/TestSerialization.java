@@ -7,8 +7,8 @@ public class TestSerialization {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
 
         MySerializable mySerializable1 = new MySerializable();
-        mySerializable1.setValue(20);
-        mySerializable1.setAnotherValue(33);
+        mySerializable1.setValue(55);
+        mySerializable1.setAnotherValue(8);
 
         FileOutputStream fileOutputStream = new FileOutputStream("output.txt");
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
